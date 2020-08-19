@@ -3,9 +3,8 @@
   position: relative;
   height: 240px;
   width: 240px;
-  background-image: url("https://i.scdn.co/image/ab67616d0000b27352c75ed37313b889447011ef");
   background-size: cover;
-  margin-bottom: 19px;
+  margin-bottom: 17px;
   margin-right: 19px;
 
 }
@@ -14,5 +13,29 @@
   display: flex;
   flex-wrap: wrap;
   width: 70%;
-  height: 70vh;
+  height: 60vh;
+}
+
+.a {
+  background-image: url("https://i.scdn.co/image/ab67616d0000b27352c75ed37313b889447011ef");
+}
+
+.b {
+  background-image: url("https://i.scdn.co/image/ab67616d0000b273d59c3c489691c8b41043cab2");
+}
+
+.c {
+  background-image: url("https://i.scdn.co/image/ab67616d0000b273e0e9139ff2f8256ebab8fc5b");
+}
+
+.d {
+  background-image: url("https://i.scdn.co/image/ab67616d0000b273522cdbcd908ebc13b2ab269f");
+}
+
+.e {
+  background-image: url("https://i.scdn.co/image/ab67616d0000b273ba60f6810163afc8d6af7311");
+}
+
+.f {
+  background-image: url("https://i.scdn.co/image/ab67616d0000b2738ba71359b7d55ac913be805d");
 }
