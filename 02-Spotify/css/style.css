@@ -1,6 +1,7 @@
 @import url("components/gradient.css");
 @import url("components/navbar.css");
 @import url("components/cards.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
 
 
 body {
@@ -8,12 +9,51 @@ body {
 }
 
 .center {
+  display:flex;
   position: relative;
-  top: 40%;
-  left: 40%;
+  top: 22%;
+  left: 10%;
+  max-width: 80%
 }
 
 .textside {
   color: white;
   font-family: 'Montserrat', sans-serif;
+  max-width: 30%;
+  margin-right: 20px;
+  margin-top: 100px
+}
+
+.textside h2 {
+  font-size: 40px ;
+  font-weight: 900;
+  margin-bottom: 0px;
+}
+
+.textside h3 {
+  margin-top: 5px;
+  font-size: 22px ;
+  font-weight: normal;
+}
+
+.button {
+  border: 3px solid #64D762 ;
+  border-radius: 50px;
+  color: white;
+  padding: 5px 38px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  background-color: #64D762;
+}
+
+
+.textside .button {
+  font-size: 20px ;
+  font-weight: normal;
+}
+
+.logo {
+  margin-left: 130px;
 }

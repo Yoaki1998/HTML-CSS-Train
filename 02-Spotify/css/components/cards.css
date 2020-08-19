@@ -1,1 +1,18 @@
-cards.css
+
+.card {
+  position: relative;
+  height: 240px;
+  width: 240px;
+  background-image: url("https://i.scdn.co/image/ab67616d0000b27352c75ed37313b889447011ef");
+  background-size: cover;
+  margin-bottom: 19px;
+  margin-right: 19px;
+
+}
+
+.cardside {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  height: 70vh;
+}
