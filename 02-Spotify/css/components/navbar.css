@@ -23,5 +23,21 @@
 .os {
   display: flex;
   justify-content: space-around;
-  width: 45%;
+  width: 30%;
+  align-items: center;
+  margin-right: 10%;
+}
+
+#prem:hover, #tel:hover, #aid:hover, .prof:hover  {
+  color: #2d46b9;
+}
+
+.pp {
+  position: relative;
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  background-image: url("https://img.20mn.fr/Z1yCRQASRH6vcu9O-vPWXA/310x190_marley-the-definitive-story-sort-salles-mercredi-13-juin-2012.jpg");
+  background-size: cover;
+
 }

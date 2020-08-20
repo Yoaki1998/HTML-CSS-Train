@@ -4,16 +4,65 @@
   height: 240px;
   width: 240px;
   background-size: cover;
-  margin-bottom: 17px;
-  margin-right: 19px;
+  margin-bottom: 15px;
+  margin-right: 15px;
 
+}
+
+
+.black {
+  z-index: 2;
+  background: black;
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.black:hover {
+  opacity: 0.85;
+}
+
+.pop {
+  z-index: 3;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  opacity: 0;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0px;
+  height: 240px;
+  width: 240px;
+  line-height: 200px;
+  transition-duration: 0.3s;
+
+}
+
+.pop:hover {
+  opacity: 1;
+}
+
+.pop .iconify {
+  z-index: 50;
+  color: white;
+  position: relative;
+  top: 85px;
+  left: 105px;
+  opacity: 0;
+  transition-duration: 0.3s;
+  width: 30px;
+  height: 30px;
+  display: flex;
+
+}
+
+.pop:hover .iconify {
+  opacity: 1;
 }
 
 .cardside {
   display: flex;
   flex-wrap: wrap;
-  width: 70%;
-  height: 60vh;
+  width: 770px;
+  height: 500px;
 }
 
 .a {

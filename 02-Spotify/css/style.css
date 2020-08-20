@@ -6,6 +6,9 @@
 
 body {
   margin: 0px;
+  overflow: hidden;
+  background-color:black;
+
 }
 
 .center {
@@ -13,7 +16,7 @@ body {
   position: relative;
   top: 22%;
   left: 10%;
-  max-width: 80%
+  max-width: 87%
 }
 
 .textside {
@@ -21,7 +24,8 @@ body {
   font-family: 'Montserrat', sans-serif;
   max-width: 30%;
   margin-right: 20px;
-  margin-top: 80px
+  margin-top: 80px;
+  max-width: 346px;
 }
 
 .textside h2 {
@@ -37,17 +41,22 @@ body {
 }
 
 .button {
-  border: 3px solid #64D762 ;
   border-radius: 50px;
   color: white;
-  padding: 5px 38px;
+  padding: 8px 42px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 14px;
-  background-color: #64D762;
+  background-color: #57b253;
+  transition: all 0.5s;
+
 }
 
+.button:hover {
+  background-color: #64D762;
+
+}
 
 .textside .button {
   font-size: 20px ;
